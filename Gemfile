@@ -1,13 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.21'
+# gem 'rails', '3.2.21'
+gem 'rails', '~> 4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# gem 'sqlite3'
 # gem 'mysql2'
-# gem 'solaris-mysql2'
+gem 'solaris-mysql2'
 gem 'SyslogLogger'
 
 
@@ -25,7 +26,8 @@ end
 
 gem 'jquery-rails'
 
-gem 'composite_primary_keys', '= 5.0.11'
+gem 'composite_primary_keys', '~> 6.0'
+# gem 'composite_primary_keys', '= 5.0.11'
 # gem 'composite_primary_keys', '= 5.0.11', :path => 'vendor/gems/gems/composite_primary_keys-5.0.11'
 
 # To use ActiveModel has_secure_password
