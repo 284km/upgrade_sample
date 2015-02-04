@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # gem 'rails', '3.2.21'
-gem 'rails', '~> 4.0.0'
+# gem 'rails', '~> 4.0.0'
+gem 'rails', '~> 4.1.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -26,7 +27,8 @@ end
 
 gem 'jquery-rails'
 
-gem 'composite_primary_keys', '~> 6.0'
+gem 'composite_primary_keys', '~> 7.0'
+# gem 'composite_primary_keys', '~> 6.0'
 # gem 'composite_primary_keys', '= 5.0.11'
 # gem 'composite_primary_keys', '= 5.0.11', :path => 'vendor/gems/gems/composite_primary_keys-5.0.11'
 
